@@ -1,0 +1,72 @@
+.wrapper {
+    background-color: black;
+}
+
+header {}
+
+.test {
+    display: flex;
+    flex-wrap: row nowrap;
+}
+
+.header-container {
+    background-image: url('/Portfolio-case-/portfolio/assets/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center 0;
+}
+
+.logo {
+    display: flex;
+    float: left;
+    background-image: url('/Portfolio-case-/portfolio/assets/svg/logo.svg') top left no-repeat;
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 0.3s;
+    border: 1px solid white;
+}
+
+.logo:hover {
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%);
+}
+
+.nav-left {
+    margin-left: auto;
+    border: 1px solid;
+    color: white;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    font: 20px "Inter" normal;
+    line-height: 50px;
+    font-weight: 400
+}
+
+.nav-item {}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+}
+
+.en-ru {
+    display: flex;
+    margin-right: 0;
+    border: 1px solid white;
+    color: white;
+    align-items: center;
+    padding-left: 31px;
+    font: 20px "Inter" normal;
+    line-height: 50px
+}
+
+.hero-container {
+    background-image: url('/Portfolio-case-/portfolio/assets/bg.jpg');
+    background-position: center -90px;
+    background-repeat: no-repeat;
+}
