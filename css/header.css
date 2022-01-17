@@ -6,7 +6,10 @@ header {}
 
 .test {
     display: flex;
-    flex-wrap: row nowrap;
+}
+
+.section-title {
+    background-image: linear-gradient(to top, #000 39px, #bdae82 39px, #bdae82 41px, #000 41px);
 }
 
 .header-container {
@@ -18,7 +21,7 @@ header {}
 .logo {
     display: flex;
     float: left;
-    background-image: url('/Portfolio-case-/portfolio/assets/svg/logo.svg') top left no-repeat;
+    background-image: url('/Portfolio-case-/portfolio/assets/svg/logo.svg');
     width: 50px;
     height: 50px;
     background-size: contain;
@@ -42,7 +45,7 @@ header {}
     justify-content: flex-end;
     align-items: center;
     list-style: none;
-    font: 20px "Inter" normal;
+    font: 20px "Inter", normal;
     line-height: 50px;
     font-weight: 400
 }
@@ -61,7 +64,7 @@ header {}
     color: white;
     align-items: center;
     padding-left: 31px;
-    font: 20px "Inter" normal;
+    font: 20px "Inter", normal;
     line-height: 50px
 }
 
@@ -69,4 +72,5 @@ header {}
     background-image: url('/Portfolio-case-/portfolio/assets/bg.jpg');
     background-position: center -90px;
     background-repeat: no-repeat;
+    height: 910px
 }
